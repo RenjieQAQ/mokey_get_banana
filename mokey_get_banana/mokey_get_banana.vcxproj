@@ -115,6 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Banana.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monkey.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Position.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Banana.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Monkey.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Position.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
